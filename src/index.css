@@ -1,0 +1,38 @@
+#navbar {
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(37, 37, 37);
+    top: -20px;
+}
+
+#navbar h1 {
+    color: white;
+    height: 50px;
+    width: calc(100vw - 20px);
+    margin-left: 20px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(37, 37, 37);
+}
+
+#interface {
+    width: 100vw;
+    height: calc(100vh - 73px);
+}
+
+#editor {
+    float: left;
+    width: 50vw;
+    background-color: white;
+    height: 100%;
+}
+
+#pdfview {
+    float: right;
+    width: 50vw;
+    background-color: lightgray;
+    height: 100%;
+}

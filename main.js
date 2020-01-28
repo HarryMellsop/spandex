@@ -15,7 +15,7 @@ function createWindow () {
   })
 
   // and load the index.html of the app.
-  win.loadFile('index.html')
+  win.loadFile('src/index.html')
 
   // Open the DevTools (if required)
   //win.webContents.openDevTools()
@@ -26,6 +26,7 @@ function createWindow () {
     // in an array if your app supports multi windows, this is the time
     // when you should delete the corresponding element.
     win = null
+    app.quit()
   })
 }
 
