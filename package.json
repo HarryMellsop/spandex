@@ -19,5 +19,8 @@
   "homepage": "https://github.com/HarryMellsop/spandex#readme",
   "devDependencies": {
     "electron": "^7.1.10"
+  },
+  "build": {
+    "extraResources": ["./public/**"]
   }
 }

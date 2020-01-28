@@ -18,14 +18,18 @@ function createWindow () {
   win.loadFile('src/index.html')
 
   // Open the DevTools (if required)
-  //win.webContents.openDevTools()
+  win.webContents.openDevTools()
 
   // Emitted when the window is closed.
   win.on('closed', () => {
     // Dereference the window object, usually you would store windows
     // in an array if your app supports multi windows, this is the time
     // when you should delete the corresponding element.
-    win = null
+    
+    // keep it this way for easier debugging; change it back
+    // for standard macOS behaviour
+    
+    //win = null
     app.quit()
   })
 }
