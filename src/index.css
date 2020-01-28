@@ -12,6 +12,12 @@
     margin-left: 20px;
 }
 
+#navbar #logo {
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
 #interface {
     width: 100vw;
     height: calc(100vh - 73px);
