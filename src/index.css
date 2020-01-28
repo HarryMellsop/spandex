@@ -2,7 +2,9 @@
     width: 100vw;
     height: 50px;
     background-color: rgb(37, 37, 37);
-    top: -20px;
+    top: 0px;
+    position: fixed;
+    left: 0px;
 }
 
 #navbar h1 {
@@ -20,13 +22,15 @@
 
 #interface {
     width: 100vw;
-    height: calc(100vh - 73px);
+    height: calc(100vh - 50px);
+    position: fixed;
+    top: 50px;
+    left: 0px;
 }
 
 #editor {
     float: left;
     width: 50vw;
-    background-color: white;
     height: 100%;
 }
 

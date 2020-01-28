@@ -42,8 +42,10 @@
         <script src="./../src/ace/src/ace.js" type="text/javascript" charset="utf-8"></script>
         <script>
             var editor = ace.edit("editor");
-            editor.setTheme("ace/theme/xcode");
+            editor.setTheme("ace/theme/monokai");
             editor.session.setMode("ace/mode/latex");
+            editor.session.setUseWrapMode(true);
+            editor.setShowPrintMargin(false);
         </script>
 
       </div>
