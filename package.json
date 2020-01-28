@@ -1,0 +1,19 @@
+{
+  "name": "spandex",
+  "version": "1.0.0",
+  "description": "Free, open-source, cross-platform and collaborative LaTeX editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarryMellsop/spandex.git"
+  },
+  "author": "Henry Mellsop",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarryMellsop/spandex/issues"
+  },
+  "homepage": "https://github.com/HarryMellsop/spandex#readme"
+}
