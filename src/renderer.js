@@ -25,4 +25,23 @@ document.getElementById('myButton').addEventListener('click', () => {
         // Add the iframe to our UI.
         viewerEle.appendChild(iframe);
     })
-})
+});
+
+// link the compiler
+
+document.getElementById('compileButton').addEventListener('click', () => {
+    console.log("Beginning compilation");
+    var pdftex = new PDFTeX();
+    var latex_code = "" +
+    "\\documentclass{article}" +
+    "\\begin{document}" +
+    "\\LaTeX is great!" +
+    "$E = mc^2$" +
+    "\\end{document}";
+
+    pdftex.compile(latex_code)
+        .then(function(pdf) {
+            console.log("Trying to open the window");
+            window.open(pdf) 
+        });
+});

@@ -14,6 +14,13 @@
     margin-left: 20px;
 }
 
+#navbar #compileButton {
+    float: right;
+    height: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
 #navbar #logo {
     height: 40px;
     margin-top: 5px;
