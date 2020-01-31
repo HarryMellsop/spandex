@@ -21,10 +21,29 @@
 
     <div id="interface">
 
-      <div id="editor"> function foo(items) {
-        var x = "All this is syntax highlighted";
-        return x;
-      }</div>
+      <div id="editor">
+      \documentclass{article}
+        \usepackage[utf8]{inputenc}
+        \usepackage{enumerate}
+        \usepackage{amsmath}
+        
+        \title{ECON178 Problem Set 1}
+        \author{Henry Mellsop (hmellsop)}
+        \date{January 2020}
+        
+        \begin{document}
+        
+        \maketitle
+        
+        \section{Problem One}
+        
+        \begin{enumerate}[a)]
+        
+        \item 
+        
+        The length of the instructions may or may not be suitable; there is the possibility that one page of instructions may be a well-condensed version of the task, and as such might be minimal.  However, given that the one-page instructions are supposedly around tasks that students are familiar with, so maybe one page of instructions is excessive.  One way to solve for this would be to ask some comprehension questions after participants familiarise themselves with the experiment.
+      \end{document}
+      </div>
 
       <div id="pdfview">
 
@@ -38,8 +57,9 @@
 
         </div>
 
-        <script src="./texlive/promisejs/promise.js"></script>
-        <script src="./texlive/pdftex.js"></script>
+        <!-- <script src="./texlive/promisejs/promise.js"></script>
+        <script src="./texlive/pdftex.js"></script> -->
+        <script type="module" src="./xetex-js/workercontroller.js"></script>
         <script>
           require('./renderer.js');
         </script>
